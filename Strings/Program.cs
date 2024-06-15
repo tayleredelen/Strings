@@ -8,7 +8,7 @@ namespace CSharpFundamentals
         {
             var firstName = "Tae";
             var lastName = "Albert";
-            var fullName = firstName + " " + lastName;
+            var fullName = firstName + " " + lastName; //concatenation
 
             var myFullName = string.Format("My name is {0} {1}", firstName, lastName);
             Console.WriteLine(myFullName);
